@@ -11,7 +11,7 @@ function removeArticles(name) {
 }
 
 // sort band names in lexicographic order excluding articles
-bandNames.sort((a, b) => removeArticles(a).localeCompare(removeArticles(b)));
+bandNames.sort();
 
 // get ul element by id
 const ul = document.getElementById('band');
